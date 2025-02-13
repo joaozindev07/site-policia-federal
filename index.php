@@ -1,19 +1,11 @@
 <?php
-/*
-Será inserido cabeçalho, arquivo de configuração e conexão
-*/
-include "topo.php";
+require_once "topo.php";
 ?>
  
 <?php
-/*
-Navegação principal do site
-*/
  
 if (isset($_GET['p'])){
     $p = $_GET['p'];
-    // echo "A página é a ".$p;
- 
     switch ($p){
         case 1: require_once "meio.php";
         break;
@@ -33,8 +25,5 @@ else {
 ?>
  
 <?php
-/*
-Dados de rodapé
-*/
 require_once "rodape.php";
 ?>
