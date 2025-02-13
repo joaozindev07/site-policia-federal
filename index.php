@@ -1,5 +1,5 @@
 <?php
-require_once "topo.php";
+include "topo.php";
 ?>
  
 <?php
