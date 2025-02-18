@@ -10,8 +10,29 @@ body {
     background-color: #030121;
 }
 
-section {
-    background-color: #834848;
-    height: 100px;
-    
+.footer {
+    background-color: #fafafa;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        height: 200px;
+    }
+
+    .sessao-footer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+
+        img {
+            height: 40px;
+        }
+    .sessao-footer2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+    }
+    }
 }

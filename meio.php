@@ -1,3 +1,1 @@
-<div class="meio">
-    <img src="img/banner.svg" id="banner">
-</div>
+<img src="img/banner2.svg" id="banner">

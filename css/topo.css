@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background: url(../img/navbar-image.svg); 
+    background-size: 100%;
 }
 
 .sessão-navbar {
@@ -19,7 +21,7 @@
         font-family: 'League Gothic';
         text-transform: uppercase;
         color: #fafafa;
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
