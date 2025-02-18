@@ -1,8 +1,29 @@
-.nav-wrapper {
-    background-color: none;
-    height: 200;
+.navbar {
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-nav {
-    background-color: #fafaff00;
+.sessão-navbar {
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;    
+
+    .barra {
+        pointer-events: none;
+    }
+
+    a {
+        font-family: 'League Gothic';
+        text-transform: uppercase;
+        color: #fafafa;
+        font-size: 18px;
+    }
+}
+
+.logo img {
+    height: 120px;
+    width: auto;
 }
