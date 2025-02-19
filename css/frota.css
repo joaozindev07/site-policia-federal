@@ -28,9 +28,14 @@ body {
 }
 
 .imagem-carro-novo {
-    max-width: 70%; 
+    width: 400px; 
+    height: 300px;
     margin-right: 100px;
-    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1500px; /* Dá profundidade ao efeito 3D */
 }
 
 .imagem-carro-novo img {
@@ -38,6 +43,8 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para o efeito */
+    transform-origin: center; /* Faz a transformação centrada na imagem */
 }
 
 .texto-descricao-novo {
@@ -54,5 +61,5 @@ p {
     font-size: 1.4em;
     line-height: 1.6;
     color: #333;
-    font-family: 'poppins';
+    font-family: 'Poppins';
 }

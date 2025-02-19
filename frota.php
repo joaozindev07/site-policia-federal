@@ -8,8 +8,9 @@
 </head>
 <body>
 
+    <div class="novo-banner">
         <img id="banner" src="img/banner3.svg" alt="Banner">
-
+    </div>
 
     <section class="secao-carro-novo">
         <div class="imagem-carro-novo">
@@ -17,7 +18,7 @@
         </div>
         <div class="texto-descricao-novo">
             <h2>Mitsubishi Pajero Full</h2>
-            <p>O Mitsubishi Pajero Full é ganha notoriedade cada vez que alguém importante é levado para as dependências da Polícia Federal. Foi em um deles que o ex-presidente Luiz Inácio Lula da Silva foi transportado da sede do Sindicato dos Metalúrgicos de São Bernardo do Campo, no dia 7/4, até a PF, na Lapa, em São Paulo.</p>
+            <p>O Mitsubishi Pajero Full ganha notoriedade cada vez que alguém importante é levado para as dependências da Polícia Federal. Foi em um deles que o ex-presidente Luiz Inácio Lula da Silva foi transportado da sede do Sindicato dos Metalúrgicos de São Bernardo do Campo, no dia 7/4, até a PF, na Lapa, em São Paulo.</p>
         </div>
     </section>
 
@@ -81,5 +82,6 @@
         </div>
     </section>
 
+    <script src="js/script.js"></script>
 </body>
 </html>
