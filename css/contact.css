@@ -1,0 +1,22 @@
+.container{
+     height: 60vh
+}
+
+.button{
+     padding: 10px;
+     width: 140px;
+     height: 50px;
+     font-size: 17px;
+     background-color: #32a0d3;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: .4s;
+}
+
+.button:hover{
+     background-color: #4ba8d3;
+     width: 145px;
+     height: 55px;
+}
