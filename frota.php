@@ -8,9 +8,8 @@
 </head>
 <body>
 
-    <div class="novo-banner">
         <img id="banner" src="img/banner3.svg" alt="Banner">
-    </div>
+
 
     <section class="secao-carro-novo">
         <div class="imagem-carro-novo">
