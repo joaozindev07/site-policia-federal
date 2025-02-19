@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     background-color: #838383;
 }
 
@@ -29,15 +28,15 @@ body {
 }
 
 .imagem-carro-novo {
-    max-width: 70%;  /* Aumentando a largura para 70% */
+    max-width: 70%; 
     margin-right: 100px;
-    height: 400px;   /* Aumentando a altura para 400px */
+    height: 400px;
 }
 
 .imagem-carro-novo img {
     width: 100%;
-    height: 100%;  /* Garantindo que as imagens tenham a mesma altura */
-    object-fit: cover; /* Assegura que a imagem cubra toda a área sem distorcer */
+    height: 100%;
+    object-fit: cover;
     border-radius: 15px;
 }
 
