@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/topo.css">
     <link rel="stylesheet" href="css/meio.css">
+    
     <title>Polícia Federal</title>
 </head>
 <body>
   <div class="navbar">
+    <a href="index.php?p=1" class="logo"><img src="img/logo_pf.png" alt=""></a>
     <div class="sessão-navbar">
       <a href="index.php?p=2">Origem</a>
       <a class="barra" href="">|</a>
       <a href="index.php?p=3">Linha do Tempo</a>
       <a class="barra" href="">|</a>
       <a href="index.php?p=4">Líderes</a>
-    </div>
-    <a href="index.php?p=1" class="logo"><img src="img/logo_pf.png" alt=""></a>
-    <div class="sessão-navbar">
+      <a class="barra" href="">|</a>
       <a href="index.php?p=5">Frota Tática</a>
       <a class="barra" href="">|</a>
-      <a href="index.php?p=6">Área de ingresso</a>
+      <a href="index.php?p=6">Ingressos</a>
       <a class="barra" href="">|</a>
       <a href="index.php?p=7">Fale Conosco</a>
     </div>

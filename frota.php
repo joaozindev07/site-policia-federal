@@ -9,7 +9,7 @@
 <body>
 
     <div class="novo-banner">
-        <img src="img/banner2.svg" alt="Banner">
+        <img id="banner" src="img/banner3.svg" alt="Banner">
     </div>
 
     <section class="secao-carro-novo">
