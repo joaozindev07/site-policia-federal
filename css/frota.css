@@ -43,8 +43,8 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para o efeito */
-    transform-origin: center; /* Faz a transformação centrada na imagem */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+    transform-origin: center;
 }
 
 .texto-descricao-novo {
