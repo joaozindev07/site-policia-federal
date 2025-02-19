@@ -5,6 +5,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Area de Contato</title>
      <link rel="stylesheet" href="css/contact.css">
+     <script src="JS/contact.js" defer></script>
 </head>
 <body>
      <section>
