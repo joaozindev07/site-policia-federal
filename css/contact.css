@@ -1,3 +1,23 @@
+/* Cor da letra dos inputs e textarea */
+input, textarea {
+     color: white; /* Define a cor da letra como branca */
+ }
+ 
+ /* Ajuste da cor da label */
+ input:focus + label,
+ textarea:focus + label {
+     color: #fff; /* Cor da label quando o input ou textarea está em foco */
+ }
+ 
+ /* Cor da linha de foco do input e textarea */
+ input[type="text"]:focus,
+ input[type="email"]:focus,
+ textarea:focus {
+     border-bottom: 1px solid white; /* Linha de foco branca */
+     box-shadow: 0 1px 0 0 white; /* Efeito de sombra na linha de foco */
+ }
+ 
+
 .container{
      height: 60vh
 }
