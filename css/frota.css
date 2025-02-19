@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #838383;
+}
+
+.novo-banner {
+    width: 100%;
+    height: 50vh;
+}
+
+.novo-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secao-carro-novo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.imagem-carro-novo {
+    max-width: 70%;  /* Aumentando a largura para 70% */
+    margin-right: 100px;
+    height: 400px;   /* Aumentando a altura para 400px */
+}
+
+.imagem-carro-novo img {
+    width: 100%;
+    height: 100%;  /* Garantindo que as imagens tenham a mesma altura */
+    object-fit: cover; /* Assegura que a imagem cubra toda a área sem distorcer */
+    border-radius: 15px;
+}
+
+.texto-descricao-novo {
+    max-width: 500px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.6;
+    color: #333;
+}
