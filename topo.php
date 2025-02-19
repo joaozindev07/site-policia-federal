@@ -13,18 +13,18 @@
 <body>
   <div class="navbar">
     <div class="sessão-navbar">
-      <a href="sass.html">Origem</a>
+      <a href="index.php?p=2">Origem</a>
       <a class="barra" href="">|</a>
-      <a href="badges.html">Linha do Tempo</a>
+      <a href="index.php?p=3">Linha do Tempo</a>
       <a class="barra" href="">|</a>
-      <a href="collapsible.html">Líderes</a>
+      <a href="index.php?p=4">Líderes</a>
     </div>
-    <a href="index.php" class="logo"><img src="img/logo_pf.png" alt=""></a>
+    <a href="index.php?p=1" class="logo"><img src="img/logo_pf.png" alt=""></a>
     <div class="sessão-navbar">
-      <a href="mobile.html">Frota Tática</a>
+      <a href="index.php?p=5">Frota Tática</a>
       <a class="barra" href="">|</a>
-      <a href="mobile.html">Área de ingresso</a>
+      <a href="index.php?p=6">Área de ingresso</a>
       <a class="barra" href="">|</a>
-      <a href="mobile.html">Fale Conosco</a>
+      <a href="index.php?p=7">Fale Conosco</a>
     </div>
   </div>
