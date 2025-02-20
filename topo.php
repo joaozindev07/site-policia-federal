@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/topo.css">
     <link rel="stylesheet" href="css/meio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/ingressar.css">
+    <script src="JS/script.js" defer></script>
+    <script src="JS/contact.js" defer></script>
+    <script src="JS/ingressar.js" defer></script>
     
     <title>Polícia Federal</title>
 </head>

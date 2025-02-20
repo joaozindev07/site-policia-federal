@@ -1,0 +1,80 @@
+.page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.card {
+    background: #2c3e50;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2, .card h3 {
+    color: #ecf0f1;
+}
+
+.card p, .card ul {
+    color: #bdc3c7;
+}
+
+.card ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.form-container {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #999;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.button-submit {
+    width: 100%;
+    padding: 10px;
+    background: #004aad;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-submit:hover {
+    background: #003080;
+}

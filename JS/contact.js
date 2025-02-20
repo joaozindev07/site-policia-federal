@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+  M.updateTextFields();
+});
+
 function validateForm() {
   let valid = true;
   clearErrors(); 
@@ -7,7 +11,6 @@ function validateForm() {
     showError("nome", "Nome é obrigatório");
     valid = false;
   }
-
 
   let email = document.getElementById("email").value;
   let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -56,9 +59,8 @@ function showError(field, message) {
 
 // Função para limpar erros
 function clearErrors() {
-  let errorFields = ["nome", "email", "assunto", "mensagem", "captcha"];
+  let errorFields = ["nome", "email", "assunto", "mensagem"];
   errorFields.forEach(function (field) {
     document.getElementById(field + "-error").textContent = "";
   });
 }
-

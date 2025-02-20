@@ -1,42 +1,42 @@
 /* Cor da letra dos inputs e textarea */
 input, textarea {
-     color: white; /* Define a cor da letra como branca */
- }
- 
- /* Ajuste da cor da label */
- input:focus + label,
- textarea:focus + label {
-     color: #fff; /* Cor da label quando o input ou textarea está em foco */
- }
- 
- /* Cor da linha de foco do input e textarea */
- input[type="text"]:focus,
- input[type="email"]:focus,
- textarea:focus {
-     border-bottom: 1px solid white; /* Linha de foco branca */
-     box-shadow: 0 1px 0 0 white; /* Efeito de sombra na linha de foco */
- }
- 
-
-.container{
-     height: 60vh
+    color: white; /* Define a cor da letra como branca */
 }
 
-.button{
-     padding: 10px;
-     width: 140px;
-     height: 50px;
-     font-size: 17px;
-     background-color: #32a0d3;
-     color: #fff;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: .4s;
+/* Ajuste da cor da label */
+input:focus + label,
+textarea:focus + label,
+input:not(:placeholder-shown) + label,
+textarea:not(:placeholder-shown) + label {
+    color: #fff; /* Cor da label quando o input ou textarea está em foco */
+    transform: translateY(-20px); /* Move o label para cima */
+    font-size: 12px; /* Reduz o tamanho do label */
+    transition: 0.2s ease all; /* Adiciona uma transição suave */
 }
 
-.button:hover{
-     background-color: #4ba8d3;
-     width: 145px;
-     height: 55px;
+/* Cor da linha de foco do input e textarea */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-bottom: 1px solid white; /* Linha de foco branca */
+    box-shadow: 0 1px 0 0 white; /* Efeito de sombra na linha de foco */
+}
+
+.button {
+    padding: 10px;
+    width: 140px;
+    height: 50px;
+    font-size: 17px;
+    background-color: #32a0d3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button:hover {
+    background-color: #4ba8d3;
+    width: 145px;
+    height: 55px;
 }
