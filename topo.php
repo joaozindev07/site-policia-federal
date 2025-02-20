@@ -12,14 +12,14 @@
     <title>Polícia Federal</title>
 </head>
 <body>
-  <div class="navbar">
+  <div class="navbar" id="topo">
     <a href="index.php?p=1" class="logo"><img src="img/logo_pf.png" alt=""></a>
     <div class="sessão-navbar">
-      <a href="index.php?p=2">Origem</a>
+      <a href="index.php#origem">Origem</a>
       <a class="barra" href="">|</a>
-      <a href="index.php?p=3">Linha do Tempo</a>
+      <a href="index.php#linhadotempo">Linha do Tempo</a>
       <a class="barra" href="">|</a>
-      <a href="index.php?p=4">Líderes</a>
+      <a href="index.php#lideres">Líderes</a>
       <a class="barra" href="">|</a>
       <a href="index.php?p=5">Frota Tática</a>
       <a class="barra" href="">|</a>

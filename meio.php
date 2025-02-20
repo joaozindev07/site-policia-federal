@@ -1,8 +1,8 @@
 <!-- imagem banner -->
 <img id="banner" src="img/banner3.svg" alt="">
 
-<div class="historia">
-    <h1 class="league-gothic-font">História da Polícia Federal</h1>
+<div class="historia" id="origem">
+    <h1 class="league-gothic-font" >História da Polícia Federal</h1>
     <div class="texto-historia">
         <h5>Origens e Primeiros Anos</h5>
         <p>
@@ -59,4 +59,137 @@
         </section>
     </div>
 </div>
+<!-- linha do tempo -->
 
+<div class="timeline" id="linhadotempo">
+    <h1 class="league-gothic-font" >Linha do Tempo</h1>
+    <div class="circulo"></div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">1808</h2>
+            <p>
+            Criação da Intendência Geral de Polícia da Corte e do Estado do Brasil por Dom João VI, um dos primeiros órgãos policiais do país..
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">1891</h2>
+            <p>
+                A Constituição Republicana prevê a necessidade de uma polícia federal para atuar em crimes contra a União.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">1960</h2>
+            <p>
+                A PF assume a emissão de passaportes e começa a atuar na segurança de fronteiras e aeroportos.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">1967</h2>
+            <p>
+                Durante o regime militar, o DFSP é reformulado e passa a se chamar <b>Polícia Federal</b> (PF), com novas atribuições e estrutura.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">1988</h2>
+            <p>
+                A Constituição Federal define a PF como responsável pela investigação de crimes federais, incluindo corrupção, tráfico internacional e segurança nacional.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">1995</h2>
+            <p>
+                Criação do <b>Plano Nacional de Segurança Pública</b>, fortalecendo a PF no combate ao crime organizado e à lavagem de dinheiro.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">2004</h2>
+            <p>
+                A PF inicia operações de grande repercussão contra a corrupção, como a <b>Operação Vampiro</b>, que investigou fraudes no Ministério da Saúde.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">2014</h2>
+            <p>
+                Início da Operação <b>Lava Jato</b>, maior investigação de corrupção da história do Brasil, envolvendo políticos e grandes empresas.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font"><img src="img/mapas-e-bandeiras.png" alt="">2020</h2>
+            <p>
+                A PF assume papel fundamental no combate ao tráfico de drogas e crimes ambientais, como no desmatamento ilegal da Amazônia.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="textbox-timeline">
+        <h2 class="league-gothic-font">Hoje em dia</h2>
+            <p>
+                A Polícia Federal continua sua modernização, expandindo sua atuação no combate ao crime cibernético e investindo em novas tecnologias de investigação.
+            </p>
+    </div>
+    <div class="linha"></div>
+    <div class="circulo2"></div>
+</div>
+
+<!-- principais lideres -->
+
+<div class="lideres" id="lideres">
+    <br>
+    <h2 class="league-gothic-font">Principais Diretores-Gerais da Polícia Federal</h1>
+    <br>
+    <section>
+        <div class="lider-box">
+            <img src="img/1.svg" alt="">
+            <h5 class="league-gothic-font">Juracy Magalhães (1944-1946)</h5>
+            <p>
+                Foi o <b>primeiro chefe</b> do então Departamento Federal de Segurança Pública (DFSP), a organização que daria origem à PF.
+            </p>
+        </div>
+        <div class="lider-box">
+            <img src="img/2.svg" alt="">
+            <h5 class="league-gothic-font">Romeu Tuma (1985-1989)</h5>
+            <p>
+                Ganhou notoriedade por <b>modernizar a PF</b> e combater crimes financeiros. Mais tarde, tornou-se senador da República.
+            </p>
+        </div>
+        <div class="lider-box">
+            <img src="img/3.svg" alt="">
+            <h5 class="league-gothic-font">Vicente Chelotti (1995-2001)</h5>
+            <p>
+                Reestruturou a PF e fortaleceu o <b> combate ao crime organizado e narcotráfico.</b>
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="lider-box">
+            <img src="img/4.svg" alt="">
+            <h5 class="league-gothic-font">Paulo Lacerda (2003-2007)</h5>
+            <p>
+                Foi o responsável pelo início de grandes operações de combate à corrupção, como a <b>Operação Satiagraha.</b>
+            </p>
+        </div>
+        <div class="lider-box">
+            <img src="img/5.svg" alt="">
+            <h5 class="league-gothic-font">Leandro Daiello (2011-2017)</h5>
+            <p>
+                Um dos diretores mais longevos, <b>esteve à frente da Operação Lava Jato</b>, uma das maiores investigações de corrupção da história do Brasil.
+            </p>
+        </div>
+        <div class="lider-box">
+            <img src="img/6.svg" alt="">
+            <h5 class="league-gothic-font">
+                Andrei Passos Rodrigues (2023-Hoje)
+            </h5>
+            <p>
+                Atual diretor-geral, liderando a PF em investigações sobre <b>desmatamento ilegal, tráfico de drogas e combate ao crime cibernético.</b>
+            </p>
+        </div>
+    </section>
+    <br>
+</div>
