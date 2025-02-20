@@ -1,5 +1,5 @@
 <div class="footer">
-  <div class="sessao-footer2">
+  <div class="sessao-footer">
     <img src="img/logo_governo.png" alt="Logo do Governo">
   </div>
   

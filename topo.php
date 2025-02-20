@@ -24,7 +24,7 @@
       <a class="barra" href="">|</a>
       <a href="index.php#linhadotempo">Linha do Tempo</a>
       <a class="barra" href="">|</a>
-      <a href="index.php#lideres">Líderes</a>
+      <a href="index.php?p=4">Líderes</a>
       <a class="barra" href="">|</a>
       <a href="index.php?p=5">Frota Tática</a>
       <a class="barra" href="">|</a>

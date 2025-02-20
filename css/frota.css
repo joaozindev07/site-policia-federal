@@ -48,7 +48,7 @@ body {
 }
 
 .texto-descricao-novo {
-    max-width: 500px;
+    width: 500px;
     position: relative;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -69,3 +69,43 @@ p {
     color: #fff;
     font-family: 'Poppins';
 }
+
+@media (max-width: 1000px) {
+
+    .secao-carro-novo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem-carro-novo {
+        margin: auto;
+        width: 80%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        perspective: 1500px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .imagem-carro-novo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px; 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transform-origin: center;
+    }
+
+    .texto-descricao-novo {
+        margin: auto;
+        width: 80%;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 0px 0px 15px 15px;
+        color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+  }
