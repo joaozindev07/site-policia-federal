@@ -1,0 +1,132 @@
+.lideres {
+    background-color: #142032;
+    
+    h2 {
+        text-align: center;
+    }
+    
+    section {
+        padding-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .lider-box {
+        background-color: #c9cdc4;
+        border-radius: 12px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+
+        h5 {
+            font-size: 1.8em;
+            color: #1a1a1a;
+        }
+
+        p {
+            text-align: justify;
+            color: black;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        img {
+            border-radius: 12px 12px 0px 0px;
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    .lideres {
+        background-color: #142032;
+        
+        h2 {
+            text-align: center;
+        }
+        
+        section {
+            padding-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    
+        .lider-box {
+            background-color: #c9cdc4;
+            border-radius: 12px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:flex-start;
+    
+            h5 {
+                font-size: 1.8em;
+                color: #1a1a1a;
+            }
+    
+            p {
+                text-align: justify;
+                color: black;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+    
+            img {
+                border-radius: 12px 12px 0px 0px;
+                width: 200px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .lideres {
+        background-color: #142032;
+        
+        h2 {
+            text-align: center;
+        }
+        
+        section {
+            padding-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    
+        .lider-box {
+            background-color: #c9cdc4;
+            border-radius: 12px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:flex-start;
+            margin-bottom: 30px;
+    
+            h5 {
+                font-size: 1.8em;
+                color: #1a1a1a;
+            }
+    
+            p {
+                text-align: justify;
+                color: black;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+    
+            img {
+                border-radius: 12px 12px 0px 0px;
+                width: 350px;
+            }
+        }
+    }
+}

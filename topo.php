@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/meio.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/ingressar.css">
+    <link rel="stylesheet" href="css/lideres.css">
     <script src="JS/script.js" defer></script>
     <script src="JS/contact.js" defer></script>
     <script src="JS/ingressar.js" defer></script>
