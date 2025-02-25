@@ -2,55 +2,66 @@
     width: 100%;
 }
 
-.historia {
-    h1 {
-        text-align: center;
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 2fr 1fr; /* Primeira linha: um container maior que o outro */
+    grid-template-rows: auto auto; /* Duas linhas */
+}
+
+.item {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.item1 {
+    grid-column: 1; /* Ocupa a primeira coluna */
+    grid-row: 1;
+}
+
+.item2 {
+    grid-column: 2; /* Ocupa a segunda coluna */
+    grid-row: 1;
+}
+
+.item3 {
+    grid-column: 1 / span 2; /* Ocupa as duas colunas inteiras */
+    grid-row: 2;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Em telas menores, apenas uma coluna */
     }
-    h5 {
-    
-     }
-    
-    p {
-        font-weight: 200;
-        text-indent: 1.5em;
-        text-align: justify;
+
+    .item1, .item2, .item3 {
+        grid-column: 1 / span 1; /* Cada item ocupa a largura total */
     }
-    
-    .texto-historia {
-        margin: auto;
-        width: 90%;
+}
+        
 
-        section {
-            display: flex;
-            justify-content: space-between;
+.atuacao-historia {
+    background: url(../img/fundo-atual.svg); 
+    background-size: 100%;  
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-            img {
-                width: 20%;
-                border-radius: 25px;
-            }
-            aside {
-                margin: auto;
-                width: 75%;
-            }
-        }
-    }
-
-    .atuacao-historia {
-        background: url(../img/fundo-atual.svg); 
-        background-size: 100%;  
-        height: 400px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        section {
-
-            li {
-                list-style-type: disc;
-            }
+    section {
+        li {
+            list-style-type: disc;
         }
     }
 }
+
 
 .timeline {
     margin-bottom: 50px;
