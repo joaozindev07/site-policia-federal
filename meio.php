@@ -1,37 +1,7 @@
 <!-- imagem banner -->
 <img id="banner" src="img/banner3.svg" alt="">
 
-<div class="grid-container">
-        <div class="item item1">        <h5>Origens e Primeiros Anos</h5>
-        <p>
-            Existem diferentes opiniões sobre a origem da Polícia Federal. A vertente histórica é defendida por aqueles que consideram suas origens remotas na criação da Intendência Geral de Polícia, em 1808, por D. João VI, no surgimento do Código de Processo Criminal de 1832 e na instituição do cargo de Chefe de Polícia, criado com a reforma do código em 1841, pela Lei nº 261, sendo Eusébio de Queiróz o primeiro a ocupá-lo. Essa nomenclatura permanece até hoje em algumas Polícias Civis, como a do Rio de Janeiro.
-        </p>
-        <p>
-            Outros estudiosos atribuem a origem da Polícia Federal ao período do Estado Novo (1937-1945), durante o governo de Getúlio Vargas. Em 28 de março de 1944, por meio do Decreto-Lei nº 6.378, a antiga Polícia Civil do Distrito Federal foi renomeada para Departamento Federal de Segurança Pública (DFSP). A mudança visava permitir que a polícia do Rio de Janeiro atuasse em outros estados, embora sua estrutura institucional ainda remontasse ao início do século XIX.
-        </p></div>
-        <div class="item item2">Item 2 (menor)</div>
-        <div class="item item3"><ul class="collapsible">
-  <li>
-    <div class="collapsible-header">
-      <i class="material-icons">filter_drama</i>
-      First
-      <span class="new badge">4</span></div>
-    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-  </li>
-  <li>
-    <div class="collapsible-header">
-      <i class="material-icons">place</i>
-      Second
-      <span class="badge">1</span></div>
-    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-  </li>
-</ul>
-</div>
-</div>
-
-
-<div class="parent">
-    <div class="div1">
+    <div class="box">
         <h5>Origens e Primeiros Anos</h5>
         <p>
             Existem diferentes opiniões sobre a origem da Polícia Federal. A vertente histórica é defendida por aqueles que consideram suas origens remotas na criação da Intendência Geral de Polícia, em 1808, por D. João VI, no surgimento do Código de Processo Criminal de 1832 e na instituição do cargo de Chefe de Polícia, criado com a reforma do código em 1841, pela Lei nº 261, sendo Eusébio de Queiróz o primeiro a ocupá-lo. Essa nomenclatura permanece até hoje em algumas Polícias Civis, como a do Rio de Janeiro.
@@ -39,11 +9,11 @@
         <p>
             Outros estudiosos atribuem a origem da Polícia Federal ao período do Estado Novo (1937-1945), durante o governo de Getúlio Vargas. Em 28 de março de 1944, por meio do Decreto-Lei nº 6.378, a antiga Polícia Civil do Distrito Federal foi renomeada para Departamento Federal de Segurança Pública (DFSP). A mudança visava permitir que a polícia do Rio de Janeiro atuasse em outros estados, embora sua estrutura institucional ainda remontasse ao início do século XIX.
         </p>
+        <p>
+            O DFSP cresceu em tamanho, importância e atribuições até que, em 21 de abril de 1960, com a transferência da capital federal do Rio de Janeiro para Brasília, muitos integrantes do departamento optaram por permanecer no Rio e integrar a Polícia Civil do Estado da Guanabara, por meio do Departamento Estadual de Segurança Pública, que herdou uma tradição institucional de mais de 150 anos. Isso resultou em uma carência de pessoal, materiais e arquivos essenciais para a corporação de Brasília, já que setores inteiros permaneceram no Rio de Janeiro — como ocorreu com a Divisão de Polícia Política e Social, que passou a integrar a administração estadual, mas continuou atuando nacionalmente.
+        </p>
     </div>
-    <div class="div2">2</div>
-    <div class="div3">     
-        O DFSP cresceu em tamanho, importância e atribuições até que, em 21 de abril de 1960, com a transferência da capital federal do Rio de Janeiro para Brasília, muitos integrantes do departamento optaram por permanecer no Rio e integrar a Polícia Civil do Estado da Guanabara, por meio do Departamento Estadual de Segurança Pública, que herdou uma tradição institucional de mais de 150 anos. Isso resultou em uma carência de pessoal, materiais e arquivos essenciais para a corporação de Brasília, já que setores inteiros permaneceram no Rio de Janeiro — como ocorreu com a Divisão de Polícia Política e Social, que passou a integrar a administração estadual, mas continuou atuando nacionalmente.</div>
-    </div>
+      
     
     <div class="atuacao-historia">
         <section>

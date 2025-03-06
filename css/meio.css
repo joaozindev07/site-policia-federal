@@ -2,50 +2,12 @@
     width: 100%;
 }
 
-.grid-container {
-    display: grid;
-    gap: 10px;
-    padding: 10px;
-    grid-template-columns: 2fr 1fr; /* Primeira linha: um container maior que o outro */
-    grid-template-rows: auto auto; /* Duas linhas */
-}
-
-.item {
-    background-color: #3498db;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    border-radius: 5px;
-}
-
-.item1 {
-    grid-column: 1; /* Ocupa a primeira coluna */
-    grid-row: 1;
-}
-
-.item2 {
-    grid-column: 2; /* Ocupa a segunda coluna */
-    grid-row: 1;
-}
-
-.item3 {
-    grid-column: 1 / span 2; /* Ocupa as duas colunas inteiras */
-    grid-row: 2;
-}
-
-@media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr; /* Em telas menores, apenas uma coluna */
-    }
-
-    .item1, .item2, .item3 {
-        grid-column: 1 / span 1; /* Cada item ocupa a largura total */
-    }
-}
-        
+.box {
+    padding: 30px;
+    margin: 30px;
+    border-radius: 24px;
+    background-color: #415a76;
+}      
 
 .atuacao-historia {
     background: url(../img/fundo-atual.svg); 
